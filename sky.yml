@@ -1,0 +1,147 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 丨请勿外传丨by:FEC_Sky, server: 5.253.16.38, port: 42547, type: vmess, uuid: 27b466a2-2890-4618-b381-ab8ee16be952, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IPLC沪港国际专线 1, server: 5.253.16.38, port: 42547, type: vmess, uuid: 27b466a2-2890-4618-b381-ab8ee16be952, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IPLC沪港国际专线 2, server: 5.253.16.110, port: 58706, type: vmess, uuid: c2a7bd4f-1a62-42be-93db-92b87c73da98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 IPLC沪港国际专线 3, server: 5.253.16.233, port: 57521, type: vmess, uuid: 1f207cd0-3354-470f-973e-776d4ce9244a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本智能优选线路, server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本03丨解锁流媒体丨, server: xn--ior256bc6a727b.com, port: 45113, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇯🇵 日本04丨解锁流媒体丨, server: xn--ior256bc6a727b.com, port: 45118, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇺🇸 美国01丨原生IP丨, server: 154.208.10.121, port: 25561, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇸 美国02丨原生IP丨, server: 173.82.42.241, port: 48888, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇸 美国03丨原生IP丨, server: 173.82.197.138, port: 45624, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 HK1(Auto) - 香港智选专线, server: hk1.auto.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK1(Relay) - 香港中继专线, server: cn1.relay.starlink.st, port: 52100, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW1(Relay) - 台湾中继专线, server: cn1.relay.starlink.st, port: 52101, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP1(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52102, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP2(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52103, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 KR1(Relay) - 韩国中继专线, server: cn1.relay.starlink.st, port: 52104, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG1(Relay) - 新加坡中继专线, server: cn1.relay.starlink.st, port: 52105, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 RU1(Relay) - 俄罗斯中继专线, server: cn1.relay.starlink.st, port: 52106, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US1(Relay) - 美国中继专线, server: cn1.relay.starlink.st, port: 52107, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK1(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK2(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52001, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK3(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52002, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK4(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52003, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP1(IEPL) - 深日国际专线, server: cn1.relay.starlink.st, port: 52004, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 KR1(IEPL) - 深韩国际专线, server: cn1.relay.starlink.st, port: 52005, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG1(IEPL) - 深新国际专线, server: cn1.relay.starlink.st, port: 52006, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW1(IEPL) - 沪台国际专线, server: cn2.relay.starlink.st, port: 52001, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP1(IEPL) - 沪日国际专线, server: cn2.relay.starlink.st, port: 52003, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 KR1(IEPL) - 沪韩国际专线, server: cn2.relay.starlink.st, port: 52004, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 RU1(IEPL) - 沪俄国际专线, server: cn2.relay.starlink.st, port: 52006, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US1(IEPL) - 沪美国际专线, server: cn2.relay.starlink.st, port: 52007, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK1(Direct) - 香港直连专线, server: hk1.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK2(Direct) - 香港直连专线, server: hk2.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK3(Direct) - 香港直连专线, server: hk3.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 HK4(Direct) - 香港直连专线, server: hk4.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW1(Direct) - 台湾直连专线, server: tw1.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP1(Direct) - 日本直连专线, server: jp1.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP2(Direct) - 日本直连专线, server: jp2.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 KR1(Direct) - 韩国直连专线, server: kr1.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG1(Direct) - 新加坡直连专线, server: sg1.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 RU1(Direct) - 俄罗斯直连专线, server: ru1.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US1(Direct) - 美国直连专线, server: us1.direct.starlink.st, port: 52000, type: vmess, uuid: 40d2cdee-74d8-4bd9-a6c9-02b3126cccb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 丨请勿外传丨by:FEC_Sky
+      - 🇭🇰 IPLC沪港国际专线 1
+      - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
+      - 🇯🇵 日本智能优选线路
+      - 🇭🇰 香港智能优选线路
+      - 🇯🇵 日本03丨解锁流媒体丨
+      - 🇯🇵 日本04丨解锁流媒体丨
+      - 🇺🇸 美国01丨原生IP丨
+      - 🇺🇸 美国02丨原生IP丨
+      - 🇺🇸 美国03丨原生IP丨
+      - 🇭🇰 HK1(Auto) - 香港智选专线
+      - 🇭🇰 HK1(Relay) - 香港中继专线
+      - 🇨🇳 TW1(Relay) - 台湾中继专线
+      - 🇯🇵 JP1(Relay) - 日本中继专线
+      - 🇯🇵 JP2(Relay) - 日本中继专线
+      - 🇰🇷 KR1(Relay) - 韩国中继专线
+      - 🇸🇬 SG1(Relay) - 新加坡中继专线
+      - 🇷🇺 RU1(Relay) - 俄罗斯中继专线
+      - 🇺🇸 US1(Relay) - 美国中继专线
+      - 🇭🇰 HK1(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇸🇬 SG1(IEPL) - 深新国际专线
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 US1(IEPL) - 沪美国际专线
+      - 🇭🇰 HK1(Direct) - 香港直连专线
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇨🇳 TW1(Direct) - 台湾直连专线
+      - 🇯🇵 JP1(Direct) - 日本直连专线
+      - 🇯🇵 JP2(Direct) - 日本直连专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇸🇬 SG1(Direct) - 新加坡直连专线
+      - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
+      - 🇺🇸 US1(Direct) - 美国直连专线
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 250
+    proxies:
+      - 🇭🇰 IPLC沪港国际专线 1
+      - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
+      - 🇯🇵 日本智能优选线路
+      - 🇭🇰 香港智能优选线路
+      - 🇯🇵 日本03丨解锁流媒体丨
+      - 🇯🇵 日本04丨解锁流媒体丨
+      - 🇺🇸 美国01丨原生IP丨
+      - 🇺🇸 美国02丨原生IP丨
+      - 🇺🇸 美国03丨原生IP丨
+      - 🇭🇰 HK1(Auto) - 香港智选专线
+      - 🇭🇰 HK1(Relay) - 香港中继专线
+      - 🇨🇳 TW1(Relay) - 台湾中继专线
+      - 🇯🇵 JP1(Relay) - 日本中继专线
+      - 🇯🇵 JP2(Relay) - 日本中继专线
+      - 🇰🇷 KR1(Relay) - 韩国中继专线
+      - 🇸🇬 SG1(Relay) - 新加坡中继专线
+      - 🇷🇺 RU1(Relay) - 俄罗斯中继专线
+      - 🇺🇸 US1(Relay) - 美国中继专线
+      - 🇭🇰 HK1(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇸🇬 SG1(IEPL) - 深新国际专线
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 US1(IEPL) - 沪美国际专线
+      - 🇭🇰 HK1(Direct) - 香港直连专线
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇨🇳 TW1(Direct) - 台湾直连专线
+      - 🇯🇵 JP1(Direct) - 日本直连专线
+      - 🇯🇵 JP2(Direct) - 日本直连专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇸🇬 SG1(Direct) - 新加坡直连专线
+      - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
+      - 🇺🇸 US1(Direct) - 美国直连专线
